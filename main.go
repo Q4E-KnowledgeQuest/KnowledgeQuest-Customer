@@ -23,6 +23,6 @@ func Schedule() {
 }
 
 func banner() {
-	pterm.DefaultCenter.Print(pterm.DefaultHeader.WithFullWidth().WithBackgroundStyle(pterm.NewStyle(pterm.BgLightBlue)).WithMargin(10).Sprint("Quest For Excellence Learning Platform"))
+	pterm.DefaultCenter.Print(pterm.DefaultHeader.WithFullWidth().WithBackgroundStyle(pterm.NewStyle(pterm.BgLightBlue)).WithMargin(10).Sprint("KnowledgeQuest: Customer"))
 	pterm.Info.Println("(c)2022 by Akhil Datla")
 }
